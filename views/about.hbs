@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+
+<p class="active">
+    {{content}}
+</p>
+
+<div id="test">
+    Test Değer
+</div>
+
+<button onclick="changeColor()">Change Color</button>
+
+<script src="javascripts/site.js"></script>
+<script>
+        showMessage('ali');
+
+        function changeColor(){
+            const element2 = document.getElementById("test");
+            element2.style.color = 'green';
+        }
+
+       
+</script>
